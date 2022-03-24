@@ -6,6 +6,7 @@ class QuotesController < ApplicationController
   end
 
   def show
+    @replies = @quote.replies
   end
 
   def new

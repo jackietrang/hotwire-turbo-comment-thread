@@ -2,13 +2,13 @@ en:
   simple_form:
     placeholders:
       quote:
-        name: Name of your quote
+        name: Write your comment
     labels:
       quote:
-        name: Name
+        name: Comment
 
   helpers:
     submit:
       quote:
-        create: Create quote
-        update: Update quote
+        create: Create comment
+        update: Update comment

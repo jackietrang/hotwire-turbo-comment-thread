@@ -5,4 +5,11 @@
       <%= @quote.name %>
     </h1>
   </div>
+
+  <%= link_to "New reply",
+              new_quote_reply_path(@quote),
+              class: "btn btn--light" %>
+
+  <%= render @replies, quote: @quote %>
+
 </main>
